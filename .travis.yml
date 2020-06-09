@@ -14,4 +14,4 @@ script:
 
 # Push the results back to codecov
 after_success:
-  - bash <(curl -s https://stage-web.codecov.dev/bash)
+  - bash <(curl -s https://stage-web.codecov.dev/bash) -v
