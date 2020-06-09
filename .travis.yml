@@ -14,4 +14,4 @@ script:
 
 # Push the results back to codecov
 after_success:
-  - bash <(curl -s https://stage-web.codecov.dev/bash) -v -X s3 -t 4f0de13b-18de-4ecd-827e-531ad3d7ce63
+  - bash <(curl -s https://stage-web.codecov.dev/bash) -v -X s3
