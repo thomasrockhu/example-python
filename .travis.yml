@@ -14,4 +14,4 @@ script:
 
 # Push the results back to codecov
 after_success:
-  - bash <(curl -s https://codecov.io/bash) -t 03409ff2-51f3-4742-8841-4a1d0c480f3a
+  - bash <(curl -s https://codecov.io/bash)
